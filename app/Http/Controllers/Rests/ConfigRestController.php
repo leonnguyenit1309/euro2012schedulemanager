@@ -74,6 +74,7 @@ class ConfigRestController extends Controller
 			    'message' => __('api.messages.get_error')
 		    ];
 	    }
+	    
 
 	    return response()->json($jdata, 200);
     }
